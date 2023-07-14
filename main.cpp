@@ -16,13 +16,7 @@ int main(int argc, char const *argv[])
     // --font=fonts/Consolas.ttf --output=output/osaka_ascii.jpg
     // "D:/ASCII-Art/build/Debug/ascii-art.exe" --input=input/lain.gif
     //  --font=fonts/Consolas.ttf --output=output/lain_ascii.mp4
-
-    if (argc < 2)
-    {
-        std::cerr << "Error: Please provide an file." << std::endl;
-        exit(EXIT_FAILURE);
-    }
-
+        
     if (parser.has("help"))
         parser.printMessage();
 
@@ -72,6 +66,12 @@ int main(int argc, char const *argv[])
         else
             std::cout << "Log: Not supported file types." << std::endl
                       << "Supported types are .gif, .mp4, .jpg, .jpeg, .png." << std::endl;
+    }
+    else 
+    {
+        std::cerr << "Error: Please provide the necessary arguments." << std::endl;
+        parser.printMessage();
+        exit(EXIT_FAILURE);
     }
 
     return 0;
