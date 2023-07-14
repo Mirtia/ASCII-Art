@@ -20,7 +20,7 @@ cv::Mat ASCII::render_image(std::vector<std::string> ASCII_strs, cv::Size size, 
     cv::Point start_point = cv::Point(0, 0);
     for (const std::string &ASCII_str : ASCII_strs)
     {
-        ft2->putText(ASCII_text_image, ASCII_str, start_point, font_height, cv::Scalar(0, 0, 255), 1, cv::LINE_AA, true);
+        ft2->putText(ASCII_text_image, ASCII_str, start_point, font_height, cv::Scalar:all(0), 1, cv::LINE_AA, true);
         start_point.y += font_height;
     }
     return ASCII_text_image;
