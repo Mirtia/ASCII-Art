@@ -12,6 +12,12 @@
 "D:/ASCII-Art/build/Debug/ascii-art.exe" --input=input/lain.png --font=fonts/Consolas.ttf --output=output/lain.png --background=#ede6d1 --color=#3d1d38
 ```
 
+## Output
+
+|                 |                 |
+|:---------------:|:---------------:|
+| ![707](output/707.gif) | ![pepe](output/smile-pepe.gif) |
+| ![osaka](output/osaka.jpg) | ![lain](output/lain.png) |
 ## Notes
 
 To use freetype you have to download the following libraries. I used *vcpkg* for package management.
@@ -25,10 +31,3 @@ vckpg install freetype
 Then, when configuring the build files you have to enable ```WITH_FREETYPE``` option. I also had to modify the ```CMakeLists.txt```  in OpenCV contributions [```/modules/freetype/CMakeLists.txt```](https://gist.github.com/UnaNancyOwen/14c72a3f10a46d41c359ab6ea307a1d2) to make it work.
 
 Moreover, there were a ton of missing .dll files such as *libopenh264* and there was no *GIF* file support from the standard OpenCV library. So, I just used [**ffmpeg**](https://ffmpeg.org/download.html) as a command line tool to convert resulting *.mp4* to *.gif*.
-
-## Output examples
-
-<img src="output/707.gif" alt="707" width="400">
-<img src="output/smile-pepe.gif" alt="pepe" width="400">
-<img src="output/osaka.jpg" alt="osaka" width="400">
-<img src="output/lain.png" alt="osaka" width="400">
