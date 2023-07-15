@@ -22,7 +22,7 @@ vckpg install harfbuzz
 vckpg install freetype
 ```
 
-Then, when configuring the build files you have to enable ```WITH_FREETYPE``` option. I also had to modify the ```CMakeList.txt```  in OpenCV contributions [```/modules/freetype/CMakeLists.txt```](https://gist.github.com/UnaNancyOwen/14c72a3f10a46d41c359ab6ea307a1d2) to make it work.
+Then, when configuring the build files you have to enable ```WITH_FREETYPE``` option. I also had to modify the ```CMakeLists.txt```  in OpenCV contributions [```/modules/freetype/CMakeLists.txt```](https://gist.github.com/UnaNancyOwen/14c72a3f10a46d41c359ab6ea307a1d2) to make it work.
 
 Moreover, there were a ton of missing .dll files such as *libopenh264* and there was no *GIF* file support from the standard OpenCV library. So, I just used [**ffmpeg**](https://ffmpeg.org/download.html) as a command line tool to convert resulting *.mp4* to *.gif*.
 
