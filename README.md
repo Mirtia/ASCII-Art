@@ -28,28 +28,7 @@ Moreover, there were a ton of missing .dll files such as *libopenh264* and there
 
 ## Output examples
 
-<style>
-  .image-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .image-container img {
-    margin-right: 10px;
-    margin-bottom: 10px;
-    max-width: 100%;
-  }
-
-  @media (max-width: 400px) {
-    .image-container img {
-      width: 100%;
-    }
-  }
-</style>
-
-<div class="image-container">
-  <img src="output/707.gif" alt="707" width="400">
-  <img src="output/smile-pepe.gif" alt="pepe" width="400">
-  <img src="output/osaka.jpg" alt="osaka" width="400">
-  <img src="output/lain.png" alt="osaka" width="400">
-</div>
+<img src="output/707.gif" alt="707" width="400">
+<img src="output/smile-pepe.gif" alt="pepe" width="400">
+<img src="output/osaka.jpg" alt="osaka" width="400">
+<img src="output/lain.png" alt="osaka" width="400">
