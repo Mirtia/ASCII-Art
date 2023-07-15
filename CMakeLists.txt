@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.17.0)
 project(ascii-art VERSION 0.0.0)
 
+set(CMAKE_CXX_STANDARD 17)
+
 find_package(OpenCV REQUIRED)
 message(STATUS "OpenCV library status:")
 message(STATUS "--version: ${OpenCV_VERSION}")
