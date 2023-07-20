@@ -3,13 +3,13 @@
 ## Usage
 
 ```c++
-"D:/ASCII-Art/build/Debug/ascii-art.exe" --input=input/osaka.jpg --font=fonts/Consolas.ttf --output=output/osaka.jpg --background=#edcaeb --color=#db6bbc
+"YOUR_PATH_HERE/ascii-art.exe" --input=input/osaka.jpg --font=fonts/Consolas.ttf --output=output/osaka.jpg --background=#edcaeb --color=#db6bbc
 
-"D:/ASCII-Art/build/Debug/ascii-art.exe" --input=input/707.gif --font=fonts/Consolas.ttf --output=output/707.mp4 --color=#e63959
+"YOUR_PATH_HERE/ascii-art.exe" --input=input/707.gif --font=fonts/Consolas.ttf --output=output/707.mp4 --color=#e63959
 
-"D:/ASCII-Art/build/Debug/ascii-art.exe" --input=input/smile-pepe.gif --font=fonts/Consolas.ttf --output=output/smile-pepe.mp4
+"YOUR_PATH_HERE/ascii-art.exe" --input=input/smile-pepe.gif --font=fonts/Consolas.ttf --output=output/smile-pepe.mp4
 
-"D:/ASCII-Art/build/Debug/ascii-art.exe" --input=input/lain.png --font=fonts/Consolas.ttf --output=output/lain.png --background=#ede6d1 --color=#3d1d38
+"YOUR_PATH_HERE/ascii-art.exe" --input=input/lain.png --font=fonts/Consolas.ttf --output=output/lain.png --background=#ede6d1 --color=#3d1d38
 ```
 
 ## Output
